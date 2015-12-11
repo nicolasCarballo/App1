@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="1" failures="0" hostname="arslncarballo" name="app1.AppServServiceSpec" tests="1" time="0.401" timestamp="2015-12-09T17:25:40">
+  <properties />
+  <testcase classname="app1.AppServServiceSpec" name="static quote service always return quinche quote" time="0.382">
+    <error message="Cannot cast object &apos;app1.appDomain : (unsaved)&apos; with class &apos;app1.appDomain&apos; to class &apos;app1.AppServService&apos;" type="org.codehaus.groovy.runtime.typehandling.GroovyCastException">org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object &apos;app1.appDomain : (unsaved)&apos; with class &apos;app1.appDomain&apos; to class &apos;app1.AppServService&apos;
+	at app1.AppServServiceSpec.static quote service always return quinche quote(AppServServiceSpec.groovy:23)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from static quote service always return quinche quote--
+estoy en el when
+Estoy en el metodo
+]]></system-out>
+  <system-err><![CDATA[--Output from static quote service always return quinche quote--
+]]></system-err>
+</testsuite>
