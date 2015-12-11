@@ -16,7 +16,7 @@ class AppAnalyzerSpec extends Specification {
 		]
 	def "Total number of quotes"(){
 		given: "An analyzer initialized with know quotes"
-		def analyzer = new AppAnalyzer (quotes)
+		def analyzer = new AppAnalyzer(quotes)
 		
 		when: "I ask for the quote count"
 		def quoteCount = analyzer.quoteCount

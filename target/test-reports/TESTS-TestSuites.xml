@@ -1,21 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <testsuites>
-  <testsuite errors="1" failures="0" hostname="arslncarballo" id="0" name="AppServServiceSpec" package="app1" tests="1" time="0.401" timestamp="2015-12-09T17:25:40">
+  <testsuite errors="0" failures="0" hostname="arslncarballo" id="0" name="AppAnalyzerSpec" package="app1" tests="1" time="0.071" timestamp="2015-12-11T19:34:02">
       <properties />
 
-      <testcase classname="app1.AppServServiceSpec" name="static quote service always return quinche quote" time="0.382">
-          <error message="Cannot cast object &apos;app1.appDomain : (unsaved)&apos; with class &apos;app1.appDomain&apos; to class &apos;app1.AppServService&apos;" type="org.codehaus.groovy.runtime.typehandling.GroovyCastException">org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object &apos;app1.appDomain : (unsaved)&apos; with class &apos;app1.appDomain&apos; to class &apos;app1.AppServService&apos;
-	at app1.AppServServiceSpec.static quote service always return quinche quote(AppServServiceSpec.groovy:23)
-</error>
+      <testcase classname="app1.AppAnalyzerSpec" name="Total number of quotes" time="0.059" />
 
-      </testcase>
-
-      <system-out><![CDATA[--Output from static quote service always return quinche quote--
-estoy en el when
-Estoy en el metodo
+      <system-out><![CDATA[--Output from Total number of quotes--
 ]]></system-out>
 
-      <system-err><![CDATA[--Output from static quote service always return quinche quote--
+      <system-err><![CDATA[--Output from Total number of quotes--
 ]]></system-err>
 
   </testsuite>
