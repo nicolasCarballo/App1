@@ -12,6 +12,7 @@ class AppServService {
 	def getRandomApp() {
 		def allAppDomain = appDomain.list()
 		def randomAppDomain
+		
 		if (allAppDomain.size() > 0) {
 			def randomIdx = new Random().nextInt(allAppDomain.size())
 			randomAppDomain = allAppDomain[randomIdx]

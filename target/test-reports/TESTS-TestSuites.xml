@@ -1,15 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites>
-  <testsuite errors="0" failures="0" hostname="arslncarballo" id="0" name="AppAnalyzerSpec" package="app1" tests="1" time="0.071" timestamp="2015-12-11T19:34:02">
-      <properties />
-
-      <testcase classname="app1.AppAnalyzerSpec" name="Total number of quotes" time="0.059" />
-
-      <system-out><![CDATA[--Output from Total number of quotes--
-]]></system-out>
-
-      <system-err><![CDATA[--Output from Total number of quotes--
-]]></system-err>
-
-  </testsuite>
-</testsuites>
+<testsuites />
