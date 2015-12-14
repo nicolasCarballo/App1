@@ -1,2 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites />
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="arslncarballo" id="0" name="UserIntegrationSpec" package="com.grailsinaction" tests="2" time="0.375" timestamp="2015-12-14T21:09:31">
+      <properties />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Saving our first user to the database" time="0.357" />
+
+      <testcase classname="com.grailsinaction.UserIntegrationSpec" name="Updating a saved user changes its properties" time="0.016" />
+
+      <system-out><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+]]></system-out>
+
+      <system-err><![CDATA[--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+]]></system-err>
+
+  </testsuite>
+</testsuites>

@@ -13568,3 +13568,165 @@ org.h2.jdbc.JdbcSQLException: Database may be already in use: "Locked by another
 	at java.util.concurrent.ThreadPoolExecutor$Worker.runTask(ThreadPoolExecutor.java:895)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:918)
 	at java.lang.Thread.run(Thread.java:695)
+2015-12-14 18:07:53,848 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   secret   false
+     |   |                         4 differences (33% similarity)
+     |   |                         se(cr-)e(t)
+     |   |                         se(sam)e(-)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:07:53,857 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   secret   false
+     |   |                         4 differences (33% similarity)
+     |   |                         se(cr-)e(t)
+     |   |                         se(sam)e(-)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:07:53,859 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   secret   false
+     |   |                         4 differences (33% similarity)
+     |   |                         se(cr-)e(t)
+     |   |                         se(sam)e(-)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:07:53,859 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   secret   false
+     |   |                         4 differences (33% similarity)
+     |   |                         se(cr-)e(t)
+     |   |                         se(sam)e(-)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:07:53,867 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   secret   false
+     |   |                         4 differences (33% similarity)
+     |   |                         se(cr-)e(t)
+     |   |                         se(sam)e(-)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:07:53,867 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   secret   false
+     |   |                         4 differences (33% similarity)
+     |   |                         se(cr-)e(t)
+     |   |                         se(sam)e(-)
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:08:47,802 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   |        false
+     |   |                |        15 differences (6% similarity)
+     |   |                |        (cu-)a(lqui)e(rVerdura)
+     |   |                |        (ses)a(m---)e(--------)
+     |   |                cualquierVerdura
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:08:47,809 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   |        false
+     |   |                |        15 differences (6% similarity)
+     |   |                |        (cu-)a(lqui)e(rVerdura)
+     |   |                |        (ses)a(m---)e(--------)
+     |   |                cualquierVerdura
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:08:47,811 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   |        false
+     |   |                |        15 differences (6% similarity)
+     |   |                |        (cu-)a(lqui)e(rVerdura)
+     |   |                |        (ses)a(m---)e(--------)
+     |   |                cualquierVerdura
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:08:47,811 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   |        false
+     |   |                |        15 differences (6% similarity)
+     |   |                |        (cu-)a(lqui)e(rVerdura)
+     |   |                |        (ses)a(m---)e(--------)
+     |   |                cualquierVerdura
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:08:47,819 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   |        false
+     |   |                |        15 differences (6% similarity)
+     |   |                |        (cu-)a(lqui)e(rVerdura)
+     |   |                |        (ses)a(m---)e(--------)
+     |   |                cualquierVerdura
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
+2015-12-14 18:08:47,819 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+User.get(existingUser.id).password == 'sesame'
+     |   |            |   |        |
+     |   |            2   |        false
+     |   |                |        15 differences (6% similarity)
+     |   |                |        (cu-)a(lqui)e(rVerdura)
+     |   |                |        (ses)a(m---)e(--------)
+     |   |                cualquierVerdura
+     |   com.grailsinaction.User : 2
+     com.grailsinaction.User : 2
+
+	at com.grailsinaction.UserIntegrationSpec.Updating a saved user changes its properties(UserIntegrationSpec.groovy:34)
