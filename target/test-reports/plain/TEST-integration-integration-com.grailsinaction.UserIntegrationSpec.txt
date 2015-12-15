@@ -1,13 +1,16 @@
 Testsuite: com.grailsinaction.UserIntegrationSpec
-Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0.375 sec
+Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.454 sec
 ------------- Standard Output ---------------
 --Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the database--
 ------------- ---------------- ---------------
 ------------- Standard Error -----------------
 --Output from Saving our first user to the database--
 --Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the database--
 ------------- ---------------- ---------------
 
-Testcase: Saving our first user to the database took 0.358 sec
-Testcase: Updating a saved user changes its properties took 0.016 sec
+Testcase: Saving our first user to the database took 0.386 sec
+Testcase: Updating a saved user changes its properties took 0.02 sec
+Testcase: Deleting an existing user removes it from the database took 0.047 sec
