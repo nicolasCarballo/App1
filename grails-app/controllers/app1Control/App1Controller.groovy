@@ -32,6 +32,8 @@ class App1Controller {
 			[ app1 : randomApp ]
 		}
 		def ajaxRandom() {
+			println "ENTRA AL ajax----------------------"
+			
 			def randomApp = appServService.getRandomApp()
 			render {
 				q(randomApp.content)

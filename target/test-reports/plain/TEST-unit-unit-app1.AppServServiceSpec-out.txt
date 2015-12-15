@@ -1,3 +1,0 @@
---Output from static quote service always return quinche quote--
-estoy en el when
-Estoy en el metodo

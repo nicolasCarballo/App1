@@ -14,11 +14,11 @@
         Unit Test Results
      - All tests </h1>
 <p class="intro">
-                        A single test executed
+                        Executed
+                        3
+                        tests
                     
-                        with
-                        one error
-                        .
+                        without a single error or failure!
                     </p>
 </div>
 <div class="grid_2 omega">
@@ -41,47 +41,60 @@
 </nav>
 </div>
 <div class="clear"></div>
-<div class="testsuite error">
+<div class="testsuite success">
 <div class="header">
-<h2>AppServServiceSpec</h2>
+<h2>UserIntegrationSpec</h2>
 <h3>
-                        A single test executed
+                        Executed
+                        3
+                        tests
                     
-                        with
-                        one error
-                        .
+                        without a single error or failure!
                     </h3>
 </div>
-<div class="testcase clearfix error grid_8 alpha omega" data-name="static quote service always return quinche quote">
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Saving our first user to the database">
 <div class="grid_3 alpha">
 <p>
-<span class="icon error"></span><b class="testname message error">static quote service always return quinche quote</b>
+<span class="icon success"></span><b class="testname message success">Saving our first user to the database</b>
 </p>
-<p class="summary">Executed in 0.382 seconds.</p>
+<p class="summary">Executed in 0.386 seconds.</p>
 </div>
-<div class="grid_5 omega outputinfo">
-<div class="details">
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
+</div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Updating a saved user changes its properties">
+<div class="grid_3 alpha">
 <p>
-<b class="message">Cannot cast object 'app1.appDomain : (unsaved)' with class 'app1.appDomain' to class 'app1.AppServService'</b>
+<span class="icon success"></span><b class="testname message success">Updating a saved user changes its properties</b>
 </p>
-<pre>org.codehaus.groovy.runtime.typehandling.GroovyCastException: Cannot cast object 'app1.appDomain : (unsaved)' with class 'app1.appDomain' to class 'app1.AppServService'
-	at app1.AppServServiceSpec.static quote service always return quinche quote(AppServServiceSpec.groovy:23)
-</pre>
+<p class="summary">Executed in 0.02 seconds.</p>
 </div>
+<div class="grid_5 omega outputinfo"></div>
+<div class="clear"></div>
 </div>
+<div class="testcase clearfix success grid_8 alpha omega" data-name="Deleting an existing user removes it from the database">
+<div class="grid_3 alpha">
+<p>
+<span class="icon success"></span><b class="testname message success">Deleting an existing user removes it from the database</b>
+</p>
+<p class="summary">Executed in 0.047 seconds.</p>
+</div>
+<div class="grid_5 omega outputinfo"></div>
 <div class="clear"></div>
 </div>
 <div class="clearfix output footer">
 <div class="sysout">
 <h2>Standard output</h2>
-<pre class="stdout">--Output from static quote service always return quinche quote--
-estoy en el when
-Estoy en el metodo
+<pre class="stdout">--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the database--
 </pre>
 </div>
 <div class="syserr">
 <h2>System error</h2>
-<pre class="syserr">--Output from static quote service always return quinche quote--
+<pre class="syserr">--Output from Saving our first user to the database--
+--Output from Updating a saved user changes its properties--
+--Output from Deleting an existing user removes it from the database--
 </pre>
 </div>
 </div>

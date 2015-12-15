@@ -3,58 +3,26 @@ package App1
 import app1.appDomain
 
 class AppAnalyzer {
-	private List<appDomain> quotes
-	
-		AppAnalyzer(List<appDomain> quotes) {
-			this.quotes = new ArrayList(quotes)
+		private final List<appDomain> citas
+		
+		AppAnalyzer(List<appDomain> citas) {
+			println "Constructor"
+			this.citas = new ArrayList(citas)
 		}
-	
-		int getQuoteCount() {
-			return this.quotes.size()
+		int getCitaCount() {
+			return this.citas.size()
 		}
-	
-		Class<Integer> getClazz() { return int.class }
-	
-		Map<String, Integer> getQuoteCountPerAuthor() {
+		Map<String, Integer> getCitaCountPerAuthor() {
+			println "Mapeo"
 			def result = [:]
-			for (appDomain quote in quotes) {
-				if (result.containsKey(quote.author)) {
-					result[quote.author] = result[quote.author] + 1
+			for( cita in citas ){
+				if (result.containsKey(cita.author)) {
+					result[cita.author] = result[cita.author] + 1
 				}
 				else {
-					result[quote.author] = 1
+					result[cita.author] = 1
 				}
-			}
+			}			
 			return result
 		}
-	
-		def getAverageQuoteLength() {
-			if (!quotes) return 0.0
-	
-			/* This is the loop-based implementation.
-			def totalSize = 0
-			for (Quote q in quotes) {
-				totalSize += q.content.size()
-			}
-	
-			return totalSize / quotes.size()
-			*/
-			return quotes.sum { it.content.size() } / quotes.size()
-		}
-	
-		def getAverageQuoteWordCount() {
-			if (!quotes) return 0
-			return quotes.sum { it.content.split(/\s+/).size() } / quotes.size()
-		}
-	
-		def getOccurrencesOf(ch) {
-			return quotes.inject(0) { count, quote -> count + quote.count(ch) }
-		}
-	}
-	
-	class QuoteAnalyzerResult {
-		Number averageQuoteLength
-		Number averageQuoteWordCount
-		Number quoteCount
-
 }
